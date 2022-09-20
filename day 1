@@ -1,0 +1,13 @@
+1.Program to find size of the primary datatypes.
+#include<stdio.h>
+int main(){
+int intType;
+float floatType;
+double doubleType;
+char charTypes;
+printf("%d",sizeof(intType));
+printf("%f",sizeof(floatType));
+printf("%lf",sizeof(doubleType));
+printf("%c",sizeof(charType));
+return 0;
+}
